@@ -22,6 +22,10 @@
   padding: 5px;
 }
 
+.text {
+  position: relative;
+}
+
 .footer {
   bottom: 0px;
   width: 100%;
