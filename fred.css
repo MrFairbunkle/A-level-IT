@@ -2,19 +2,20 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: DM Sans;
-  font-size: 16px;
+  background-color: #243F02;
+  color: white;
 }
 
 .header {
   color: white;
-  background-color: #94A555;
-  padding: 30px;
+  background-color:#243F02;
+  padding: 10px;
   text-align: center;
 }
 
 #navbar {
   overflow: hidden;
-  background-color: #112700;
+  background-color: #94A555;
 }
 
 #navbar a {
@@ -28,20 +29,31 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #243F02
-  ;
+  background-color: #7084A4;
   color: white;
 }
 
 #navbar a.active {
-  background-color: #7084A4
-  ;
+  background-color: #112700;
   color: white;
 }
 
-.content {
+.column1 {
   padding: 16px;
   width: 33%;
+  float: left;
+}
+
+.column2 {
+  padding: 16px;
+  width: 33%;
+  float: right;
+}
+
+.column3 {
+  padding: 16px;
+  width: 33%;
+  float: right;
 }
 
 .sticky {
@@ -56,4 +68,11 @@ body {
 
 .hero-image{
   width: 100%;
+  margin-bottom: -5px;
+}
+
+@media screen and (max-width:400px){
+  #navbar a{
+    float: center;
+  }
 }
