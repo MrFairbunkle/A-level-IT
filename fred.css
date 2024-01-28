@@ -39,19 +39,19 @@ body {
 }
 
 .column1 {
-  padding: 16px;
+  padding-left: 55px;
   width: 33%;
   float: left;
 }
 
 .column2 {
-  padding: 16px;
+  padding-right: 55px;
   width: 33%;
   float: right;
 }
 
 .column3 {
-  padding: 16px;
+  padding-right: 55px;
   width: 33%;
   float: right;
 }
