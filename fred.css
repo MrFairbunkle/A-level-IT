@@ -72,7 +72,7 @@ body {
   margin-bottom: -5px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
   #navbar a{
     float: none;
   }
